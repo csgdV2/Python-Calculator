@@ -1,5 +1,32 @@
-print("Welcome to the Python calculator for addition")
-a = int(input("What is your first number? \n"))
-b = int(input("What is your second number \n"))
+# Getting the  Numbers
 
-print("Your answer is", a+b)
+a = int(input("What is your first no? \n"))
+b = int(input("What is your second no? \n"))
+
+# Asking for specific operation
+
+ask = input("What you want to do? \nMultiply = 1 \nDivide = 2 \nAdd = 3 \nSubstract = 4 \nPress the number corresponding to your need. \n")
+
+# Printing the answer
+
+if ask == "1" : {
+    print("Your answer is ", a*b)
+}
+    
+elif ask == "2" : {
+    print("Your answer is ", a/b)
+}
+    
+elif ask == "3" : {
+    print("Your answer is ", a+b)
+}
+    
+elif ask == "4" : {
+    print("Your answer is ", a-b)
+}
+
+# Printing the line we get when the Operation Input "ask" is wrong
+
+elif ask != "1" "2" "3" "4" : {
+    print("Your input is wrong please try again.")
+}
