@@ -21,7 +21,7 @@ elif ask == "3" : {
     print("Your answer is ", a+b)
 }
     
-else ask == "4" : {
+elif ask == "4" : {
     print("Your answer is ", a-b)
 }
 
