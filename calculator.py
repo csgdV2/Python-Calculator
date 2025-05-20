@@ -21,12 +21,12 @@ elif ask == "3" : {
     print("Your answer is ", a+b)
 }
     
-elif ask == "4" : {
+else ask == "4" : {
     print("Your answer is ", a-b)
 }
 
 # Printing the line we get when the Operation Input "ask" is wrong
 
-elif ask != "1" "2" "3" "4" : {
+else : {
     print("Your input is wrong please try again.")
 }
